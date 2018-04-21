@@ -1,0 +1,73 @@
+.avinash{
+    background:'pink'
+}
+.video-stream
+{
+margin:0;
+height:75vh;
+width:120vh;
+display:flex;
+color:#fff;
+margin-top:0px;
+background:red
+}
+.container{
+max-width:1960px;
+max-height:800px;
+padding-left:2rem;
+padding-right:2rem;
+margin:auto;
+margin-top:0px
+}
+.video-wrap{
+margin:0;
+position:absolute;
+top:0;
+left:0;
+padding-left:0;
+overflow:hidden;
+width:100%;
+height:100vh;
+}
+.video-wrap video{
+min-width:100%;
+min-height:100%}
+.header-overlay{
+height:100vh;
+width:100vw;
+position:absolute;
+top:0;
+left:0;
+background:#225470;
+opacity:0.80;
+z-index:1
+}
+.header-content{
+z-index:2;
+margin-top:0px;
+height:75vh;
+width:120vh;
+}
+.header-content h1{
+font-size:40px;
+margin-bottom:0;
+margin-top:5px;}
+.header-content p{
+font-size:1.5rem;
+display:block;
+padding-bottom:2 rem;
+}
+.btn
+{
+background:#34b3a0;
+color:white;
+font-size:20px;
+text-decoration:none;
+padding: 1rem 2rem;
+border-radius:10px;
+border:solid 2px;
+}
+.btn:hover{
+border:solid 2px;
+color:#ecf0f1;
+background:#2ecc71;}
